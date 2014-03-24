@@ -1,12 +1,12 @@
-# Open Kanban 
+﻿# Open Kanban 
 
 | Open Kanban Metadata |||
 | :------------ | -----------: | -------------------: |
 | Author:     | Joseph Hurtado  | Joseph at AgileLion dot com |
-| Contributor: | Annita Yegorova Hurtado | Annita at AgileLion dot com |
+| Contributor: | Fabio Leme de Almeida | fabioleme at outlook dot com |
 | Sponsor:    | AgileLion Institute     | [AgileLion.com](http://agilelion.com) |
-| Main Repository:	| Open Kanban on GitHub | [https://github.com/agilelion/Open-Kanban](https://github.com/agilelion/Open-Kanban) |
-| Document Name:	| Open Kanban Main | This page describes the heart of Open Kanban |
+| Main Repository:	| Open Kanban no GitHub | [https://github.com/agilelion/Open-Kanban](https://github.com/agilelion/Open-Kanban) |
+| Document Name:	| Open Kanban Portuguese-BR | Esta página é a tradução do Open Kanban para Portugues-BR |
 | Release and License:     | 1.00 Rev A |  [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) |
 
 ## Our Movement for a Free Open Kanban
