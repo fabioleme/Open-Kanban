@@ -1,148 +1,140 @@
-# Open Kanban (Відкритий Kanban) 
+# Open Kanban 
 
-| Мета дата Open Kanban |||
+| Open Kanban Metadata |||
 | :------------ | -----------: | -------------------: |
-| Автор:     | Joseph Hurtado  | Joseph at AgileLion dot com |
-| Співавтор: | Ганна Єгорова-Хуртадо | Annita at AgileLion dot com |
-| Перекладач: | Ганна Єгорова-Хуртадо | @Nyusja; Annita at AgileLion dot com|
-| Мова: | Українська | |
-| Спонсор:    | AgileLion Institute     | [AgileLion.com](http://agilelion.com) |
-| Головний репозиторій:	| Open Kanban on GitHub | [https://github.com/agilelion/Open-Kanban](https://github.com/agilelion/Open-Kanban) |
-| Ім'я документу:	| Open Kanban Main | Ця сторінка описує серце Оpen Kanban |
-| Версія релизу та ліцензія:    | 1.00 Rev A |  [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) |
+| Author:     | Joseph Hurtado  | Joseph at AgileLion dot com |
+| Contributor: | Annita Yegorova Hurtado | Annita at AgileLion dot com |
+| Sponsor:    | AgileLion Institute     | [AgileLion.com](http://agilelion.com) |
+| Main Repository:	| Open Kanban on GitHub | [https://github.com/agilelion/Open-Kanban](https://github.com/agilelion/Open-Kanban) |
+| Document Name:	| Open Kanban Main | This page describes the heart of Open Kanban |
+| Release and License:     | 1.00 Rev A |  [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) |
 
-## Наш рух на шляху до Вільного Open Kanban
-Open Kanban – це рух, ціль якого зробити доступними для всіх основні цінності та принципи Kanban. Ідею створення Open Kanban нам надихнув рух [Відкритого програмного забезпечення](http://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B5_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F) (ВПЗ), що надав користувачам та творцям програмного забезпечення 4-ри суттєві привілеї [Вільного програмного забезпечення.](http://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B5_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F)
+## Our Movement for a Free Open Kanban
+Open Kanban is a movement to make the core values and principles of Kanban available to all. It is inspired by the Open Source [movement](https://en.wikipedia.org/wiki/Open-source_software) goal to give software users and developers the four essential freedoms of [free software.](http://www.gnu.org/philosophy/free-sw.html)
 
-Подібно до ВПЗ головним завданням Open Kanban (ОК) є надання спільноті Kanban цих чотирьох привілеїв (можливостей) у контексті обміну знаннями:
+Likewise Open Kanban's purpose is to give the Kanban community those four freedoms, but now in the context of shared knowledge:  
+1. Freedom to use Open Kanban for any purpose (freedom 1)  
+2. Freedom to study, question, and change Open Kanban as you wish so that it works for you and your organization (freedom 2)  
+3. Freedom to fork or modify copies of Open Kanban to create your own customized version, and give it to anyone (freedom 3)  
+4. Freedom to benefit the entire Open Kanban community with a better solution for all, by sharing your contributions with the main Open Kanban repository. This is possible via your submissions to our main repository on [Github.](https://github.com/agilelion/Open-Kanban) This freedom shows our commitment to communication, collaboration and continuous improvement (freedom 4.)
 
-1. Вільно користуватися Kanban для будь-якої мети. (Привілея № 1)  
-2. Вивчати, задавати питання та змінювати Open Kanban у тому чи іншому руслі, який є оптимальним для Вас або/та Вашої організації. (Привілея № 2)  
-3. Розгалужувати чи вносити зміни в Open Kanban для створення своєї власної кастомізованої (зміненої та налаштованої згідно з Вашим смаком та особливостями структури) версії, та, як наслідок, розповсюджувати її. (Привілея № 3)  
-4. Приносити користь всій спільноті Open Kanban пропонуючи більш корисні способи розв'язання проблем шляхом обміну та розповсюдження цієї інформації у Головному репозиторії (сховищі файлів) Open Kanban. Це можливе шляхом заливання тексту, інформації тощо до нашого головного сховища на GitHub. Ця надана можливість показує нашу схильність до спілкування, співробітництва та постійного вдосконалення. (Привілея № 4)
+## Open Kanban Introduction
+Kanban is becoming an important part of Agile Software Development and IT, VersionOne's authoritative 2013 [State of Agile Survey](http://bit.ly/AgileSurvey2013) reveals that Kanban has doubled in adoption among the Agile methodologies, and is frequently used as an alternative to Scrum.
 
-## Вступ до Open Kanban
-Kanban як метод набуває все більшої популярності та стає все більш важливою часткою [Гнучкої (Agile) методології програмного забезпечення](http://uk.wikipedia.org/wiki/%D0%93%D0%BD%D1%83%D1%87%D0%BA%D0%B0_%D1%80%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F). Згідно з [авторитетним дослідженням стану Agile у 2012 році](http://bit.ly/Agile-survey-2012), проведеним компанією [VersionOne](http://www.versionone.com/), методологія Kanban збільшила вдвічі свої показники прийняття в якості методу Agile та застосування його серед інших Agile-методологій за минулий 2012 рік, тим самим став найчастіше використаною альтернативою Scrum.
+However with growth also came a push to align Kanban (the [Agile and Lean](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from) method with over four decades of history) with some proprietary ideas and interpretations of what Kanban is. This situation was fully explained in the initial post we shared about the need for Open Kanban, you can read more about it [there.](http://agilelion.com/agile-kanban-cafe/what-is-kanban) 
 
-Що б люди не казали, але з ростом популярності Kanban зросла необхідність пристосувати Kanban ([Agile та Lean](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from) методику з більш ніж сорокарічною історією) до деяких [пропрієтарних](http://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BF%D1%80%D1%96%D1%94%D1%82%D0%B0%D1%80%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B5_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F) (власницьких) ідей та інтерпретацій того, що саме є Kanban. Ця ситуація була повністю пояснена у нашій попередній статті, в якій ми поділилися ідеєю необхідності існування Open Kanban, Ви можете прочитати нашу статтю [за цим посиланням](http://agilelion.com/agile-kanban-cafe/what-is-kanban).
+Open Kanban actually corresponds to what most people familiar with the Agile movement think of when they refer to Kanban itself: An [Agile method](http://agilelion.com/agile-kanban-cafe/what-difference-between-agile-kanban-and-scrum-less-5-minutes) for IT and Software Development; unlike other Agile methods Kanban adds a vast  [Lean](http://en.wikipedia.org/wiki/Lean_software_development) heritage. In [Japan](http://en.wikipedia.org/wiki/Toyota_Production_System) where the Lean movement originated this type of Kanban is called カンバン (Kamban.)
 
-Open Kanban фактично відповідає уявленню більшості людей, що знайомі із рухом Agile, коли вони чують чи думають про Kanban в якості [методики Agile](http://agilelion.com/agile-kanban-cafe/what-difference-between-agile-kanban-and-scrum-less-5-minutes) для розробки ПЗ та ІТ. Однак, на відміну від інших методів Agile, Kanban поєднує в собі величезну частину спадку методики [Lean](http://uk.wikipedia.org/wiki/%D0%9E%D1%89%D0%B0%D0%B4%D0%BB%D0%B8%D0%B2%D0%B5_%D0%B2%D0%B8%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%82%D0%B2%D0%BE). В [Японії](http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D0%B1%D0%B0%D0%BD), звідки ми й дізналися про рух Lean, такий вид Kanban називається カンバン(камбан).
+Open Kanban's first objective is to offer a free, open source, collaborative friendly Kanban that is both [Agile and Lean.](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from)
 
-Першорядним завданням Open Kanban є надання вільного (безкоштовного), відкритого, придатного для співробітництва Kanban-метода, який одночасно є [як Agile, так і Lean](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from).
+## What is Open Kanban?
 
-## Що таке Open Kanban?
+### Open Kanban Definition
 
-### Визначення Open Kanban
+Open Kanban is an Agile and Lean [ultra light method](http://agilelion.com/agile-kanban-cafe/agile-2-0-embracing-lean-and-rise-ultra-light-methods) to improve any area of your organization. Although it's main focus is in IT and Software Development, Open Kanban can be used in any business or non-profit to achieve agility and continuous improvement.
 
-Open Kanban – це Agile та Lean [надлегкий метод](http://agilelion.com/agile-kanban-cafe/agile-2-0-embracing-lean-and-rise-ultra-light-methods), який спрямований на покращення будь-якої сфери діяльності Вашої організації. Хоч його головними сферами застосування є ІТ та ПЗ, Open Kanban може бути використаний у будь-якій організації, бізнесі або некомерційній організації для досягнення гнучкості та постійного вдосконалення в роботі.
+However Open Kanban is not a full or complete Agile or Lean method, instead it is the heart of that method that is the reason it can be ultra light. The best comparison in the software world would be the [kernel](http://en.wikipedia.org/wiki/Linux_kernel) of an open source operating system
 
-Незважаючи на те, що Open Kanban не є повною чи завершеною методикою Agile чи Lean, у свій час він є серцем (ядром) цього методу, ось чому Open Kanban можна назвати надлегким методом. Найкращим прикладом для фахівців зі світу Програмного забезпечення щодо суті методу Open Kanban є [Ядро Лінукса](http://uk.wikipedia.org/wiki/%D0%AF%D0%B4%D1%80%D0%BE_Linux).
+Open Kanban includes three key components that define it:  
+- A set of values that align it with the [Agile](http://agilemanifesto.org) and [Lean](http://en.wikipedia.org/wiki/Lean_software_development) Movements for IT and Software Development  
+- A set of practices that translate those values into action  
+- An open source license that allow anyone to build upon it or modify it.
 
-Open Kanban поєднує в собі три ключові компоненти, які його й визначають:
-  
-- Низка цінностей, які виводять його на один рівень із рухами [Agile](http://agilemanifesto.org) і [Lean](http://en.wikipedia.org/wiki/Lean_software_development) у сфері ІТ та ПЗ.
+### The Open Kanban Movement
 
-- Комплекс практик, що приводять в дію цінності Open Kanban.
+Extensions on top of Open Kanban constitute Agile and Lean Methods based on Open Kanban, or Open Kanban Methods. Open Kanban is the heart of all those Kanban methods. Our license allows them to be free or commercial. All these Kanban methods working together and collaborating are the basis of the Open Kanban Movement.  We look forward to having many Open Kanban methods that collaborate with each other to benefit all.
 
-- Ліцензія відкритого типу (Open Source license), яка надає право будь-кому вносити зміни чи створювати нові методи на базі існуючого (Open Kanban).
+All Open Kanban Methods share in common the following characteristics:    
+- A common Open Kanban core that is both Agile and Lean  
+- A collaborative approach to improve Open Kanban itself by submitting their ideas back to the main Open Kanban repository; where they can be shared with all the Open Kanban community.
 
+The nature of the Open Kanban Movement can be easily understood by examining the diagram below:
+![Diagram of Open Kanban Methods - The Open Kanban Ecosystem](http://farm8.staticflickr.com/7420/9502339079_7c08751a30_o.png)
 
-### Рух Open Kanban 
+Open Kanban can be extended and customized by people or organizations that wish to create an Agile and Lean Kanban method that is complete and customized for their particular audience. For example [Kanban Ace](http://agilelion.com/why-learn-kanban-ace) is an Agile and Lean Method based on Open Kanban; but extended to address the particular needs of IT,  Software Development and business. 
 
-Розширення зверх Open Kanban складають Agile і Lean методи, засновані на одному чи кількох методах Open Kanban. Open Kanban є серцем (ядром) усіх цих Kanban методів. Наша ліцензія дозволяє цим Kanban методам бути вільними (безкоштовними) або комерційними. Всі Kanban методи разом узяті, що співпрацюють один з одним, є основою руху Open Kanban. Ми з нетерпінням очікуємо того моменту, коли безліч методів Open Kanban будуть взаємодіяти між собою і таким чином приносити користь всім людям.
+As the Open Kanban movement grows we expect many additional Open Kanban methods to join us. We already share many key ideas with Alan Shalloway's [Kanban for Teams](http://www.netobjectives.com/resources/articles/lean-kanban-for-teams), Corey Ladas [Scrumban](http://www.amazon.com/Scrumban-Essays-Systems-Software-Development/dp/0578002140/) and Karl Scotland's [Kanban Thinking](http://availagility.co.uk/kanban-thinking/). We extend an open invitation to them, and to any leading thinker or organization that wants to join us to build a strong Open Kanban Movement.
 
-Усі методи Open Kanban об'єднуються між собою наступними характеристиками:    
-- Спільне ядро Open Kanban, яке одночасно є Agile та Lean.  
-- Покращення Open Kanban спільними зусиллями шляхом надання своїх ідей до головного репозиторію (сховища), де їх зможе побачити вся спільнота Open Kanban.
+## Open Kanban Components
+The following are the key values and practices that make up Open Kanban. Given that this is our initial release, we do expect future contributions and revisions. Feedback is welcome, and yes you can use GitHub with a [Pull request](https://help.github.com/articles/using-pull-requests)!
 
-Природу Руху Open Kanban можна легко зрозуміти, дослідивши схему, наведену нижче:
-![Diagram of Open Kanban Methods - The Open Kanban Ecosystem Translated to Ukrainian](http://farm4.staticflickr.com/3804/9628922939_35737a0fd6_o_d.png)
+### 1. Open Kanban Values
+Open Kanban practices are rooted in values that are Lean and Agile; those values are an integral part of Open Kanban. Open Kanban values are:
 
-Open Kanban може бути розвинутий та налаштований для людей та організацій, які бажають створити завершений метод Agile і Lean Kanban, готовий до застосування в індивідуальній сфері клієнтів. Наприклад, розроблений нами метод [Kanban Ace](http://agilelion.com/why-learn-kanban-ace) одночасно є Agile і Lean Kanban методом, заснованим на Open Kanban, але розширеним для того, щоб відповідати особливим потребам у сферах ІТ, ПЗ та бізнесу. 
-
-З розвитком руху Open Kanban ми очікуємо на приєднання до нас інших методів Open Kanban. Ми вже поділяємо багато ключових ідей з методами [Kanban for Teams](http://www.netobjectives.com/resources/articles/lean-kanban-for-teams) від Al Shalloway,  [Scrumban](http://www.amazon.com/Scrumban-Essays-Systems-Software-Development/dp/0578002140/) від Corey Ladas, а також [Kanban Thinking](http://availagility.co.uk/kanban-thinking/) від Karl Scotland. Ми запрошуємо до співробітництва всіх бажаючих об'єднати зусилля та побудувати могутній рух Open Kanban.
-
-## Компоненти Open Kanban
-Нижче ми наводимо перелік ключових цінностей та практик, які складають Open Kanban. Враховуючи той факт, що це є нашим першим релізом, ми розраховуємо в майбутньому на подальший розвиток наших ідей. Ми пропонуємо взяти участь у нашій ініціативі, і, звичайна річ, Ви можете скористатися GitHub для пропонування Ваших змін і внеску до спільної справи, скориставшись функцією [Pull request](https://help.github.com/articles/using-pull-requests), що надішле нам запит до головного репозиторію Open Kanban!
-
-### 1. Цінності Open Kanban
-Вважаємо за потрібне ще раз нагадати, що практичні навички Open Kanban засновані на цінностях, які є Lean та Agile. Вони полягають у наступному:
-
-1.  Повага до людей:
-    *   У центрі методів Lean та TPS (Toyota Production System) лежить повага до людей. Повага до людей також полягає у відповідальності за свої дії, але й в той самий час наділяє інших компетентністю та можливістю виконувати ті чи інші дії і процеси.
-    *   Повага до людей дозволяє делегувати завдання та управляти попитом, що є дуже важливим для методу Kanban. Коли будь-який розробник програми чи коду має можливість взяти завдання з накопиченої невиконаної роботи і перетягнути її в стадію розробки чи перевірки, це означає, що ми його поважаємо, поважаємо його вміння, і саме ми надаємо йому це право і компетенцію виконувати подібного роду дії, висловлюючи таким чином нашу повагу до цієї людини.
-    *   Повага до людей зближує цю цінність зі «стійким ритмом» із Agile, так само як і з «[Muri](http://uk.wikipedia.org/wiki/%D0%9E%D1%89%D0%B0%D0%B4%D0%BB%D0%B8%D0%B2%D0%B5_%D0%B2%D0%B8%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%82%D0%B2%D0%BE)» (無理) з Lean. Якщо Ви поважаєте свою команду, Ви не будете змушувати своїх людей працювати до смерті або піддавати будь-якого працівника на фізично або морально нездійсненні завдання. Будь-яка виснажена людина, чи то є розробник, менеджер або вся команда, становлять загрозу для проекту. Kanban не може добитися успіху таким чином.
-2. Сміливість (мужність, хоробрість):
-	*   Однієї поваги до людей замало; як достатньо влучно зазначив [Kent Beck](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658), для того щоб досягти досконалості чи навіть просто виправити помилку, нам необхідна сміливість. Коли менеджер, віце-президент чи керуюча особа робить якусь помилку, і хтось нижчий за рангом помічає її, необхідно мати багато сміливості, щоб вказати на цю помилку людині, що є вищою за рангом.
-    *   Мужність у поєднанні з повагою до людей забезпечує ефективне делегування, належний попит, і постійне вдосконалення. 
-3.  Вміння зосереджувати увагу на створенні цінності:
-    *   Однією з ключових цілей Kanban є створення цінності. У ПЗ цінністю є створення працюючого, якісного коду, що у свою чергу є частиною Agile. Ця цінність передбачає собою задоволення клієнтом від виконаного розробником завдання, що і є метою наших зусиль.
-    *   Цінність знаходиться в центрі методик Lean і TPS (Toyota Production System), але нерідко ця цінність згадується як зворотна сторона медалі та означає втрати, відходи, тобто будь-яку діяльність, яка споживає ресурси, але не створює цінності. В японській мові для визначення всього цього є лише одне слово «[Muda](http://uk.wikipedia.org/wiki/%D0%9E%D1%89%D0%B0%D0%B4%D0%BB%D0%B8%D0%B2%D0%B5_%D0%B2%D0%B8%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%82%D0%B2%D0%BE)» (無駄). Ліквідуючи відходи, ми оптимізуємо процес створення цінності.
-4.  Спілкування та співпраця:
-	*   Спілкування та співпраця знаходяться у центрі командної роботи. Одна цінність не може повноцінно функціонувати без іншої, саме тому ми й вирішили їх поєднати. Для досягнення успіху нам потрібно не лише змусити інших нас почути та зрозуміти, а також бути в змозі співпрацювати з іншими людьми для створення цінності.
-    *   Не маючи співпраці в команді, Kanban зазнає невдачі. Чесно кажучи, практично кожний бізнес, який не має належного спілкування і співпраці, певним чином зазнає невдачі.
-5.  Цілісний або системний підхід до змін:  
-	*   [Теорія глибинних знань](https://www.deming.org/theman/theories/profoundknowledge) [Доктора Демінга](http://uk.wikipedia.org/wiki/%D0%94%D0%B5%D0%BC%D1%96%D0%BD%D0%B3), так само як і [Теорія Обмежень](http://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B5%D0%B6%D0%B5%D0%BD%D1%8C) Е. Голдрата нагадує нам, що жодна окрема частина системи ніколи не зможе принести загального поліпшення. Ми повинні прийняти [цілісний](http://agilelion.com/agile-kanban-cafe/hkanban-holistic-approach-getting-things-done) погляд на систему і зрозуміти його. Ключовою частиною системи є людина, і не тільки в якості трудових ресурсів, але і в якості повноцінної особистості, яка примушує всю систему працювати.
-    *   Kanban погоджується з цією точкою зору і спрямовує свої зусилля саме туди, де це найбільш потрібно. Розуміння цілісності системи є фундаментальним у процесі постійних та вдалих змін.
+1.  Respect for people
+    *   At the core of Lean and TPS is respecting people. Respect for people also means assuming responsibility for your actions, and empowering others to take those actions.
+    *   Respect for people allows for delegation and the demand-pull that is crucial to Kanban. When any developer is able to take a story from the backlog and pull it to development or QA, he is able to do so because we respect him, we respect his skills, and we give him the ability to do so, we empower him through our respect.
+    *   Respect for people also aligns with sustainable pace in Agile, or Muri 無理 in Lean. If you respect your team you will not work them to death, or subject any worker to intellectual or physical demands that make it nearly impossible to succeed. An exhausted developer, manager or team are the perfect recipe for disaster. Kanban cannot succeed this way.
+2.  Courage
+	*   Respect for people is not enough; like [Kent Beck](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658) noticed in order to improve or even correct mistakes we need courage. When a manager, VP, or person in authority makes a mistake and someone with lower rank notices it, it takes courage for him to tell us about it.
+    *   Courage combined with respect for people enable effective delegation, proper demand-pull and continuous improvement.
+3.  Focus on Value
+    *   One of the key purposes of Kanban is the creation of value. In software development value means the creation of working, good quality code and is also part of Agile. Value implies customer satisfaction, and that is the purpose of our efforts.
+    *   Value is at the center of Lean and TPS, but frequently it is mentioned as the reverse side of the coin: eliminate waste or "Muda" in Japanese Muda 無駄 represents anything that does not add value to your process or flow. By eliminating waste, we optimize the creation of value.
+4.  Communication and Collaboration
+	*   Communication, and collaboration are at the center of teamwork. One value does not work without the other that is the reason we decided to group them together. To succeed we need to make ourselves heard (communicate) but also we need to be able to work with others to create value.
+    *   Without teamwork Kanban fails, and to be honest almost any business that does not communicate and collaborate properly will fail.
+5.  Holistic or Systemic Approach to Change  
+	*   Deming's [System of Profound Knowledge](https://www.deming.org/theman/theories/profoundknowledge) and Goldratt&rsquo;s [Theory of Constraints](http://en.wikipedia.org/wiki/Theory_of_constraints) reminds us that no single part of a system can ever bring overall improvement. We need to take a [holistic](http://agilelion.com/agile-kanban-cafe/hkanban-holistic-approach-getting-things-done) view of the system and understand it. And the key part of the system is people, not just as resources, but also as full rounded individuals who make the system work.
+    *   Kanban agrees with this vision and aims to drive improvement where it counts. An understanding of the whole is fundamental to arrive at steady, successful change.
  
-### 2. Практичні навички (Практики) Open Kanban
-Цінності Open Kanban приводяться в дію за допомогою наступних 4-х ключових практичних навичок (практик):
+### 2. Open Kanban Practices
+Open Kanban values translate into action by following four key practices:
 
-1.  Візуалізація робочого процесу:
-	* Коли ми виконуємо роботу, використовуючи розум, наприклад, розробку нового методу, дизайн користувацького інтерфейсу, створення бізнес-репорту, тощо, більшу її частину ми не можемо побачити. Це означає, що результат наших зусиль набагато менший за самі витрачені зусилля, тому що ми не бачимо всього обсягу виконаної роботи.
-    *  Kanban має рішення цієї проблеми:  [Kanban boards](https://dl.dropboxusercontent.com/u/73847422/Kanban-Board/Kanban-Board-Example-AgileLion.png) - наочне уявлення [робочого процесу](http://agilelion.com/sites/default/files/u2/web-boards-in-context-Deming.jpg), що показує яким чином завдання переміщуються від однієї стадії розробки до іншої.
-    *   Така практика Kanban призводить до легшого співробітництва, а також забезпечує прозорість процесу і роботи усієї команди. Керівник проекту може легко бачити статус того чи іншого завдання, що стоїть перед командою, а учасник проекту - свій вплив на проект.
-    *   Візуалізація робочого процесу не обмежується лише дошками Kanban: Ви також можете використовувати вивіски, діаграми, які команда може бачити у своєму робочому середовищі, наприклад, дешборди, графіки продуктивності або інші [показники інформації](http://alistair.cockburn.us/Information+radiator).
-2.  Використання командного підходу у керівництві проекту:
-     *   Без лідера в команді неможливо досягти чогось суттєвого, за винятком ситуації, коли в компанії працює лише одна людина.
-     *   Хоча Kanban працює з того місця, де Ви знаходитесь зараз, та не потребує змін у назві посад і ролей в організації, Kanban не може працювати повноцінно, не маючи команди. 
-     *   Наявність команд та керівництва команди є вирішальним фактором для досягнення результатів. Хороші команди і хороші керівники команд однаково важливі в Kanban. Немає ніякої необхідності змінювати назви посад чи ролей в команді, але нам потрібні злагоджені команди на чолі з гідними лідерами.
-3.  Зниження об'єму затрачуваних зусиль:
-	*   Дослідження в галузі [роботи мозку](http://www.thenewatlantis.com/publications/the-myth-of-multitasking) та [численний](http://blogs.hbr.org/bregman/2010/05/how-and-why-to-stop-multitaski.html) досвід методів [Lean](http://management.curiouscatblog.net/2010/05/24/people-cannot-multitask/), [Теорії Обмежень](http://theoryofconstraints.blogspot.com/2007/07/multi-tasking-why-projects-take-so-long.html) і [Kanban](http://www.personalkanban.com/pk/expert/multitasking-and-bottlenecks-why-limit-your-wip-iii/#sthash.qqyUA7tS.dpbs) підтверджує той факт, що за бажання завершити необхідний етап роботи скоріше запланованого, маючи кращі умови робочого процесу і гарний бойовий настрій в команді, необхідно зосередитися та скоротити обсяг роботи. Багатозадачність не принесе бажаних плодів.
-    *   Обмеження кількості завдань, що потрібно виконати за будь-який проміжок часу, означає зменшення загального обсягу роботи на будь-якій стадії робочого ланцюжка. Роблячи це, Ви принесете плоди своєї діяльності набагато скоріше, тому що Ви можете зосередити свої зусилля в одному напрямку. Найкраще пояснення цього факту було наведено у книзі [Дональда Рейнерцена](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009). Дозволяючи команді зосереджувати свої зусилля, Ви допомагаєте їй завершити розпочате набагато швидше. 
-    * Обмеження кількості незавершеної роботи (WIP) є наслідком зниження об'єму затрачуваних зусиль, а не навпаки. Втім, виконання будь-якої з наведених вище рекомендацій призведе до поліпшення показників ефективності та продуктивності. Open Kanban не просить обмежити WIP, але вимагає «Знизити об'єм затрачуваних зусиль».
-    * Яким же чином можна знизити об'єм затрачуваних зусиль? Зменште складність та кількість роботи, що Ви робите на кожній ділянці робочого ланцюжка. У сфері розробки ПЗ це буде означати наступне: зменшити кількість створюваних завдань (epics) і якомога більше спростити існуючі завдання; а також знизити об'єм завдань, що потрібно виконати на кожному етапі [життєвого циклу ПЗ](http://uk.wikipedia.org/wiki/%D0%96%D0%B8%D1%82%D1%82%D1%94%D0%B2%D0%B8%D0%B9_%D1%86%D0%B8%D0%BA%D0%BB_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F) - таким чином Ваша команда буде зосереджена на головному і принесе більше плодів у своїй діяльності. 
-4.  Надбання нових знань і постійне вдосконалення:
-     *   У разі використання чотирьох практик, наведених вище, Ви вже гарантовано поліпшите свої показники продуктивності в роботі. Проте для того, щоб зробити значний стрибок в області інновації, бойовому дусі та досягненні цінностей, ми повинні зупинитися, проаналізувати проведену роботу і застосувати нові знання для вдосконалення!
-     *   Варто зауважити, що ця практика відповідає цінності Agile – прийняття змін. Існує багато шляхів застосування цієї практики командою Kanban: наприклад, Ви можете проводити Ретроспективні та Стратегічні наради чи навіть застосовуючи практику [Кайдзен](http://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B9%D0%B4%D0%B7%D0%B5%D0%BD).
-     *   Навчання та аналіз виконаної роботи є ключовою концепцією для безперервного вдосконалення. І так, крок за кроком, процес вдосконалення стане частиною культури всієї командної роботи.
-     *   В майбутньому Open Kanban буде вбирати в себе найкраще, прислухаючись до спільноти і оновлюючись, щоб стати кращим Agile і Lean методом.
+1.  Visualize the workflow
+	* When we are doing knowledge work, like programming a method, designing a user interface or writing a business report most of the work is invisible. This means that the output of your effort is much smaller than the effort involved, and the bulk of that effort cannot be easily seen.
+    *  Kanban deals with this challenge by using [Kanban boards](https://dl.dropboxusercontent.com/u/73847422/Kanban-Board/Kanban-Board-Example-AgileLion.png), visual representations of the [flow of work](http://agilelion.com/sites/default/files/u2/web-boards-in-context-Deming.jpg) that show how work items move from stage to the next.
+    *   This Kanban practice makes it easier to collaborate in a team setting, and also provides transparency about the process and the work everyone is doing. If you are a manager you can easily see at any moment what is the status of things, and if you are a team member you can see your impact on the overall work.
+    *   Visualizing the workflow is not limited to Kanban boards; one can also use signs and diagrams that the team can see in their work environment, like dashboards, performance metrics or other [information radiators.](http://alistair.cockburn.us/Information+radiator)
+2.  Lead using a team approach
+     *   Unless your organization is composed of just one person, you cannot achieve anything worthwhile without leading a team.
+    *   Although Kanban starts where you are, and does not need to modify any titles or roles in an organization, Kanban cannot work without a team to deliver value.
+    *   Teams and team leadership are crucial to deliver value. Both are needed in Kanban: good teams and good team leadership. No need for new roles or titles, but we do have a need for working teams, with leaders in them!
+3.  Reduce the Batch Size of your Efforts 
+	*   Research in the way the [mind works](http://www.thenewatlantis.com/publications/the-myth-of-multitasking), and [countless](http://blogs.hbr.org/bregman/2010/05/how-and-why-to-stop-multitaski.html) experiences from [Lean](http://management.curiouscatblog.net/2010/05/24/people-cannot-multitask/), the [Theory of Constraints](http://theoryofconstraints.blogspot.com/2007/07/multi-tasking-why-projects-take-so-long.html) and [Kanban](http://www.personalkanban.com/pk/expert/multitasking-and-bottlenecks-why-limit-your-wip-iii/#sthash.qqyUA7tS.dpbs) confirm that to deliver value faster, with better flow and good team morale we need to focus and limit the number of things we do. Multitasking does not work.
+    *   Limiting how many things you do at any given time, means reducing the batch size of whatever you are doing at a particular stage of the value chain. By doing this you will deliver value faster because you are able to focus your efforts, one of the best explanations of this fact has been given by [Donald G. Reinertsen](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009). Keeping the team focused helps them finish what they start faster. 
+    * Limiting WIP is a consequence of reducing the batch size of your efforts, and not the other way around. However doing either will result in improvements in efficiency and productivity. Open Kanban does not ask you to limit WIP, but it does request that you "Reduce the Batch Size of your Efforts."
+    * How do you reduce the batch size of your efforts? Reduce the complexity and the quantity of things you do at any stage of the value chain. In software development this would mean: reduce the number of large stories (epics) you create, and do your best to keep stories simple; also reduce the volume of stories you work on any stage of the Software Development Life Cycle; this way your team will focus, and deliver more value.
+ 
+4.  Learn and improve continuously
+     *   The four previous practices ensure you are doing things better than before, and that you deliver more value. However to make sure you make a significant jump in innovation, morale, and value we must also stop, learn and apply our knowledge to improve!
+    *   It is worth mentioning that this practice aligns with the Agile value of embracing change, and there are many ways a Kanban team can implement this practice, you could have Retrospectives, Strategy Meetings or even [Kaizen Groups](https://en.wikipedia.org/wiki/Kaizen).
+    *   Learning is the key concept before continuous improvement can ever happen! Once learning is part of the culture, part of the workflow, then improving continuously becomes easy.
+    * Open Kanban further supports learning by listening to the community and updating itself to be a better Agile and Lean method.
 
-### 3. Ліцензія Open Kanban
+### 3. Open Kanban's License
 
-Наші пошуки відповідної [Ліцензії Open Source](http://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_open_source) для цього проекту привели нас до трьох можливих варіантів сприяння співробітництва та чотирьох привілей, які ми прийняли. Цими варіантами стали: GNU [LGPL](http://www.gnu.org/licenses/lgpl.html) v3, Ліцензія [MIT](http://opensource.org/licenses/MIT), а також найбільш відкриті ліцензії [Creative Commons](http://uk.wikipedia.org/wiki/Creative_Commons).
+Our search for a suitable open source license for the project led us to three possible choices to foster collaboration and the four freedoms we have embraced, those licenses were: the GNU [LGPL](http://www.gnu.org/licenses/lgpl.html) v3, the [MIT](http://opensource.org/licenses/MIT) License, and [Creative Commons](http://creativecommons.org) most open licenses.
 
-Незважаючи на те, що перші дві ліцензії начебто нам [підходять](http://choosealicense.com/licenses/), обидві призначені більше для спільного використання комп'ютерного коду. «Creative Commons» навпаки підходить для ментальної роботи, а саме: різних документів, письменницьких робіт і створення різних видів медіа. Використання переважною більшістю користувачів саме цієї ліцензії, зокрема компаніями [Wikipedia](http://creativecommons.org/weblog/entry/15411), [Flickr](http://www.flickr.com/creativecommons/), [Autodesk](http://creativecommons.org/weblog/entry/39184) і багатьох [інших](http://wiki.creativecommons.org/Case_Studies) переконало нас у перевагах цього виду ліцензії. У [майбутньому](http://creativecommons.org/weblog/entry/38371) ми бачимо її в якості надійного прибічника свободи  в нашій [культурі](http://creativecommons.org/culture).
+Although the first two licenses are [appropriate](http://choosealicense.com/licenses/), both are designed for sharing of computer source code. Creative Commons on the other hand is appropriate for knowledge work that deals with writing, and media creation. Major endorsements by [Wikipedia](http://creativecommons.org/weblog/entry/15411), [Flickr](http://www.flickr.com/creativecommons/), [Autodesk](http://creativecommons.org/weblog/entry/39184) and many [more](http://wiki.creativecommons.org/Case_Studies) convinced us of their reputation and [future](http://creativecommons.org/weblog/entry/38371) as a trustworthy promoter of [freedom](http://creativecommons.org/culture) in our culture.
 
-Таким чином наша ліцензія Open Kanban базована на «Creative Commons» і є повністю сумісною з 4-мя привілеями відкритої спільноти. **Отже, ми обрали [Creative Commons Attribution 3.0 Unported license](http://creativecommons.org/licenses/by/3.0/)**, найбільш відому як [CC BY](http://creativecommons.org/licenses/by/3.0/). Ця ліцензія є однією з найбільш відкритих ліцензій на сьогоднішній день. CC BY ліцензія Open Kanban цілковито дозволяє Вам робити наступне:
+Our Open Kanban License is therefore based on Creative Commons and fully compatible with the four freedoms of the open source movement we embrace. **We selected the [Creative Commons Attribution 3.0 Unported license](http://creativecommons.org/licenses/by/3.0/)**, commonly referred to as [CC BY](http://creativecommons.org/licenses/by/3.0/) as our license; this is one of the most open licenses available. Open Kanban's CC BY license fully allows you to:  
+- Share, copy, and modify Open Kanban  
+- Use Open Kanban for personal, commercial or non-profit goals.  
 
-- Розповсюджувати, копіювати та змінювати Open Kanban;  
-- Використовувати метод Open Kanban в особистих, комерційних та некомерційних цілях.  
+We only ask you that you:  
+	- Give us credit  
+	- Contribute your best ideas back to Open Kanban root repository.
 
-Ми тільки просимо Вас про наступне:
+## How Can You Contribute?
+First of all talk about and recommend Open Kanban! You can find the company behind this idea: AgileLion Institute on [Twitter](https://twitter.com/AgileLionInst), [LinkedIn](http://www.linkedin.com/company/agilelion-institute), [Google Plus](https://plus.google.com/104894673916035923996/posts), and on the [web](http://agilelion.com). 
 
-- Вказуйте нас в якості джерела Ваших знань
-- Робіть свій внесок у Open Kanban, надаючи свої найкращі ідеї до нас, у [головний репозиторій](https://github.com/agilelion/Open-Kanban) Open Kanban.
+Second, if you understand Kanban well, and wish to contribute, get familiar with Git, fork us and contribute back to us by submitting your [pull request](https://help.github.com/articles/creating-a-pull-request) on [GitHub](https://github.com/agilelion/Open-Kanban)! 
 
-## Яким чином Ви можете посприяти нашій ідеї Open Kanban?
-Насамперед розмовляйте про Open Kanban і рекомендуйте його використання. Ви можете дізнатися про компанію, яка стоїть за ідеєю Open Kanban, в мережі інтернет: у [Twitter](https://twitter.com/AgileLionInst), [LinkedIn](http://www.linkedin.com/company/agilelion-institute), [Google Plus](https://plus.google.com/104894673916035923996/posts), а також на офіційній [веб-сторінці](http://agilelion.com). 
+Third, our vision of Open Kanban is much bigger than this document, we want to make Open Kanban into an independent website, and spread the Open Kanban Movement around the world of Agile and Lean practitioners. If you would like to do more we welcome your help in any of the following areas:
 
-По-друге, якщо Ви добре розумієте метод Kanban і бажаєте внести свій вклад, ознайомтесь з принципом роботи Git, зробіть розгалуження Open Kanban і для надання своїх ідей зробіть запит через функцію [pull request](https://help.github.com/articles/creating-a-pull-request) у [GitHub](https://github.com/agilelion/Open-Kanban).
+* Translations. We would like to reach the world with Open Kanban. We welcome translators from any part of the world!
+* Graphic Design. We would like to create several logos to identify people who follow, support us, or join forces as Open Kanban Methods or Certified Education providers.
+* Web Design and Development. We would like to have a website dedicated to Open Kanban, where people can find information about the project, education providers and like minded people who support the initiative. We are committed to Open Source solutions and languages such as PHP, Drupal and Ruby on Rails.
+* Hosting. If you would like to host our website, let us know. We are committed to open source operating systems such as Linux and FreeBSD.
+* Open Kanban Education. Join our initiative to offer Certified Open Kanban courses. We are in the early stages of this initiative; we would like to join forces with several education providers who share our vision for an Open Kanban alternative in the market. If you are interested please [contact us.](http://agilelion.com/contact)  
+* Financial Support. A financial donation page will be created soon, but if you want to contribute now, feel free to contact us [directly.](http://agilelion.com/contact)  
+* Ideas and Suggestions. We welcome them in our [forum!](http://www.linkedin.com/groups?home=&amp;gid=4809439) 
 
-По-третє, наше бачення Open Kanban значно більше за цей документ. Ми хочемо створити незалежний сайт для Open Kanban та поширити рух Open Kanban по всьому світу послідовників методів Agile і Lean. Якщо Ви бажаєте зробити щось більше для Open Kanban, ми раді Вашій допомозі в будь-якій з наступних областей:
+Finally do consider contributing to the sponsor behind this project: AgileLion Institute by taking a [class with us.](http://agilelion.com/agile-kanban-classes) Our Kanban Ace course is the first one that is fully based on Open Kanban, and while you learn you make Open Kanban stronger.
 
-- Переклади. Ми хочемо ознайомити увесь світ із Open Kanban. Ми раді вітати перекладачів з будь-якої частки нашої Землі. 
-- Графічний Дизайн. Ми хотіли б створити декілька логотипів для ідентифікації послідовників Open Kanban, тих, хто підтримує нас, об'єднує зусилля в поширенні методів Open Kanban або  провайдерів Сертифікованого Навчання.
-- Веб Дизайн та Розробка. Ми хочемо створити сайт, присвячений Open Kanban, де люди змогли б знайти інформацію про проект, навчання цьому методу, а також однодумців, що підтримують нашу ініціативу. Ми прихильники Open Source рішень та комп'ютерних мов, таких як: PHP, Drupal і Ruby on Rails.
-- Хостинг. Якщо Ви маєте бажання надати хостинг для нашого сайту, повідомте нам про це. Ми прихильники Open Source ОС, таких як: Linux та FreeBSD.
-- Навчання Open Kanban. Приєднуйтесь до нашої ініціативи щодо пропозиції Сертифікованих курсів Open Kanban. Ми знаходимося на ранній стадії розробки цієї ініціативи і маємо намір об'єднати зусилля з тими фахівцями, які пропонують навчання та поділяють наше бачення про існування на ринку альтернативного методу Open Kanban. Якщо Ви в цьому зацікавлені, будь ласка, [напишіть нам](http://agilelion.com/contact).
-- Фінансова Підтримка. Найближчим часом ми створимо окрему веб-сторінку для Вашої фінансової підтримки, але якщо Ви маєте бажання надати нам фінансову допомогу будь-якого роду вже зараз, Ви можете [написати нам](http://agilelion.com/contact), і ми надамо Вам усю необхідну інформацію.
-- Ідеї та Пропозиції. Ми раді вітати Ваші ідеї та пропозиції на нашому [LinkedIn форумі](http://www.linkedin.com/groups?home=&amp;gid=4809439).
-
-І, нарешті, розгляньте можливість сприяння спонсора створення цієї ініціативи, AgileLion Institute, шляхом реєстрації на [наші класи](http://agilelion.com/agile-kanban-classes). Наш курс Kanban Ace є першим заснованим на Open Kanban і, навчаючись, тим самим Ви зробите Open Kanban сильнішим.
-
-Ми щиро віримо у користування відкритим рухом Open Kanban для всіх, де співробітництво і спільний внесок мають велике значення. Ми щиро дякуємо Вас за увагу та час, що Ви провели, читаючи цей головний документ Open Kanban. Нехай цінності та принципи Open Kanban послужать на благо Вашої діяльності!
+We truly believe in an open, collaborative Open Kanban Movement for all, thanks so much for staying with us all the way to the end Open Kanban's main document. May the values and principles of Open Kanban be useful to all of you!
 
 Joseph Hurtado  
-Засновник [AgileLion Institute](http://agilelion.com)  
+Founder [AgileLion Institute](http://agilelion.com)  
 Kanban Ace Coach - An Open Kanban Method
