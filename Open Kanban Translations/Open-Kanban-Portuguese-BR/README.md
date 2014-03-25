@@ -11,7 +11,7 @@
 | Release and License:     | 1.00 Rev A |  [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) |
 
 ## Nosso Movimento para um Open Kanban Livre
-Open Kanban é um movimento para tornar valores e princípios do Kanban disponíveis para todos. É inspirado nos objetivos do movimento de [Software Livre](https://en.wikipedia.org/wiki/Open-source_software), visando fornecer aos usuários e desenvolvedores de software as [quatro liberdades essenciais] do Software Livre(http://www.gnu.org/philosophy/free-sw.html).
+Open Kanban é um movimento para tornar valores e princípios do Kanban disponíveis para todos. É inspirado nos objetivos do movimento de [Software Livre](https://en.wikipedia.org/wiki/Open-source_software), visando fornecer aos usuários e desenvolvedores de software as [quatro liberdades essenciais](http://www.gnu.org/philosophy/free-sw.html) do Software Livre.
 
 Da mesma forma que a proposta do Open Kanban é fornecer á comunidade Kanban as quatro liberdades, mas agora no contexto de conhecimento compartilhado:
 1. Liberdade de usar Open Kanban para qualquer propósito (liberdade 1)
