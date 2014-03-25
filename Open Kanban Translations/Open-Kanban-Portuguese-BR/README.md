@@ -14,9 +14,13 @@
 Open Kanban é um movimento para tornar valores e princípios do Kanban disponíveis para todos. É inspirado nos objetivos do movimento de [Software Livre](https://en.wikipedia.org/wiki/Open-source_software), visando fornecer aos usuários e desenvolvedores de software as [quatro liberdades essenciais](http://www.gnu.org/philosophy/free-sw.html) do Software Livre.
 
 Da mesma forma que a proposta do Open Kanban é fornecer á comunidade Kanban as quatro liberdades, mas agora no contexto de conhecimento compartilhado:
+
 1. Liberdade de usar Open Kanban para qualquer propósito (liberdade 1)
+
 2. Liberdade de estudar, questionar, e modificar o Open Kanban da forma como se desejar, de maneira que funcione para você e para a sua organização (liberdade 2)
+
 3. Liberdade de criar a sua versão personalizada do Open Kanban e distribui-la para qualquer pessoa (liberdade 3)
+
 4. Liberdade de beneficiar toda a comunidade do Open Kanban com uma solução melhor para todos, compartilhando suas contribuições com o repositório principal do Open Kanban. Isto é possível através de suas submissões para nosso repositório principal no [Github.](https://github.com/agilelion/Open-Kanban). Esta liberdade mostra nosso comprometimento com a comunicação, colaboração e melhoria contínua (liberdade 4)
  
 ## Open Kanban Introduction
