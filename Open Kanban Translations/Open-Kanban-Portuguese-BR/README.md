@@ -7,7 +7,7 @@
 | Contributor 2: | Rodrigo Leme de Almeida | rodrigoliba at gmail dot com |
 | Sponsor:    | AgileLion Institute     | [AgileLion.com](http://agilelion.com) |
 | Main Repository:	| Open Kanban no GitHub | [https://github.com/agilelion/Open-Kanban](https://github.com/agilelion/Open-Kanban) |
-| Document Name:	| Open Kanban Portuguese-BR | Esta página é a tradução do Open Kanban para Portugues-BR |
+| Document Name:	| Open Kanban Portuguese-BR | Esta página é a tradução do Open Kanban para Português-BR |
 | Release and License:     | 1.00 Rev A |  [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) |
 
 ## Nosso Movimento para um Open Kanban Livre
@@ -16,15 +16,12 @@ Open Kanban é um movimento para tornar valores e princípios do Kanban disponí
 Da mesma forma que a proposta do Open Kanban é fornecer á comunidade Kanban as quatro liberdades, mas agora no contexto de conhecimento compartilhado:
 
 1. Liberdade de usar Open Kanban para qualquer propósito (liberdade 1)
-
 2. Liberdade de estudar, questionar, e modificar o Open Kanban da forma como se desejar, de maneira que funcione para você e para a sua organização (liberdade 2)
-
 3. Liberdade de criar a sua versão personalizada do Open Kanban e distribui-la para qualquer pessoa (liberdade 3)
-
 4. Liberdade de beneficiar toda a comunidade do Open Kanban com uma solução melhor para todos, compartilhando suas contribuições com o repositório principal do Open Kanban. Isto é possível através de suas submissões para nosso repositório principal no [Github.](https://github.com/agilelion/Open-Kanban). Esta liberdade mostra nosso comprometimento com a comunicação, colaboração e melhoria contínua (liberdade 4)
  
-## Open Kanban Introduction
-Kanban is becoming an important part of Agile Software Development and IT, VersionOne's authoritative 2013 [State of Agile Survey](http://bit.ly/AgileSurvey2013) reveals that Kanban has doubled in adoption among the Agile methodologies, and is frequently used as an alternative to Scrum.
+## Introdução ao Open Kanban
+Kanban está se tornando umas das principais metodologias ágeis adotadas no desenvolvimento de software e em TI de maneira geral. A publicação de 2013 do [State of Agile Survey](http://bit.ly/AgileSurvey2013) da VersionOne revela que Kanban duplicou sua adoção entre as Metodologias Ágeis e é usada frequentemente como uma alternativa ao Scrum.
 
 However with growth also came a push to align Kanban (the [Agile and Lean](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from) method with over four decades of history) with some proprietary ideas and interpretations of what Kanban is. This situation was fully explained in the initial post we shared about the need for Open Kanban, you can read more about it [there.](http://agilelion.com/agile-kanban-cafe/what-is-kanban) 
 
