@@ -33,14 +33,14 @@ O principal objetivo do Open Kanban é fornecer uma fonte livre, aberta, colabor
 
 ### Definição do Open Kanban
 
-Open Kanban is an Agile and Lean [ultra light method](http://agilelion.com/agile-kanban-cafe/agile-2-0-embracing-lean-and-rise-ultra-light-methods) to improve any area of your organization. Although it's main focus is in IT and Software Development, Open Kanban can be used in any business or non-profit to achieve agility and continuous improvement.
+Open Kanban é um [método Ágil e Lean super leve](http://agilelion.com/agile-kanban-cafe/agile-2-0-embracing-lean-and-rise-ultra-light-methods) para aprimorar qualquer área da sua organização. Embora seu foco principal seja em TI e Desenvolvimento de Software, o Open Kanban pode ser usado em qualquer área, seja empreendimento de negócios ou até sem fim lucrativos, para alcançar a agilidade e a melhoria continua.
 
-However Open Kanban is not a full or complete Agile or Lean method, instead it is the heart of that method that is the reason it can be ultra light. The best comparison in the software world would be the [kernel](http://en.wikipedia.org/wiki/Linux_kernel) of an open source operating system
+Entretanto o Open Kanban não é um método Ágil ou Lean completo: ao inves disso é o coração do método a razão de ser tão leve. A melhor comparação no mundo de software poderia ser o [kernel](http://en.wikipedia.org/wiki/Linux_kernel) de um Sistema Operacional de código aberto.
 
-Open Kanban includes three key components that define it:  
-- A set of values that align it with the [Agile](http://agilemanifesto.org) and [Lean](http://en.wikipedia.org/wiki/Lean_software_development) Movements for IT and Software Development  
-- A set of practices that translate those values into action  
-- An open source license that allow anyone to build upon it or modify it.
+Open Kanban inclui três componentes chaves que o definem:
+- Um grupo de valores que o alinha aos movimentos [Lean](http://en.wikipedia.org/wiki/Lean_software_development) e [Ágil](http://agilemanifesto.org) para TI e Desenvolvimento de Software
+- Um grupo de práticas que transforme estes valores em ações
+- Uma licença Open Source que permita a qualquer um construir ou modificar a sua própria implementação.
 
 ### The Open Kanban Movement
 
