@@ -23,15 +23,15 @@ Da mesma forma que a proposta do Open Kanban é fornecer á comunidade Kanban as
 ## Introdução ao Open Kanban
 Kanban está se tornando umas das principais metodologias ágeis adotadas no desenvolvimento de software e em TI de maneira geral. A publicação de 2013 do [State of Agile Survey](http://bit.ly/AgileSurvey2013) da VersionOne revela que Kanban duplicou sua adoção entre as Metodologias Ágeis e é usada frequentemente como uma alternativa ao Scrum.
 
-However with growth also came a push to align Kanban (the [Agile and Lean](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from) method with over four decades of history) with some proprietary ideas and interpretations of what Kanban is. This situation was fully explained in the initial post we shared about the need for Open Kanban, you can read more about it [there.](http://agilelion.com/agile-kanban-cafe/what-is-kanban) 
+Entretanto com o crescimento também veio a necessidade de alinhar o Kanban (Os métodos [Ágil e Lean](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from) com mais de quatro décadas de história) a algumas ideias proprietárias e interpretações sobre o que Kanban realmente é. Esta situação foi totalmente explicada no primeiro post que nós compartilhamos, sobre a necessidade do Open Kanban, que pode ser lido [aqui](http://agilelion.com/agile-kanban-cafe/what-is-kanban).
 
-Open Kanban actually corresponds to what most people familiar with the Agile movement think of when they refer to Kanban itself: An [Agile method](http://agilelion.com/agile-kanban-cafe/what-difference-between-agile-kanban-and-scrum-less-5-minutes) for IT and Software Development; unlike other Agile methods Kanban adds a vast  [Lean](http://en.wikipedia.org/wiki/Lean_software_development) heritage. In [Japan](http://en.wikipedia.org/wiki/Toyota_Production_System) where the Lean movement originated this type of Kanban is called カンバン (Kamban.)
+Na realidade o Open Kanban corresponde ao que a maioria dos agilistas pensa sobre o Kanban: Um [método Ágil](http://agilelion.com/agile-kanban-cafe/what-difference-between-agile-kanban-and-scrum-less-5-minutes) para TI e Desenvolvimento de Software; Ao contrário de outros métodos ágeis, o Kanban acrescenta uma vasta herança do [Lean](http://en.wikipedia.org/wiki/Lean_software_development). No [Japão](http://en.wikipedia.org/wiki/Toyota_Production_System), onde o movimento Lean originou este tipo de Kanban, é chamado de カンバン (Kamban.)
 
-Open Kanban's first objective is to offer a free, open source, collaborative friendly Kanban that is both [Agile and Lean.](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from)
+O principal objetivo do Open Kanban é fornecer uma fonte livre, aberta, colaborativa e amigável que seja ao mesmo tempo [Agile e Lean](http://agilelion.com/agile-kanban-cafe/agile-and-lean-influences-where-did-kanban-scrum-scrumban-come-from).
 
-## What is Open Kanban?
+## O que é Open Kanban ?
 
-### Open Kanban Definition
+### Definição do Open Kanban
 
 Open Kanban is an Agile and Lean [ultra light method](http://agilelion.com/agile-kanban-cafe/agile-2-0-embracing-lean-and-rise-ultra-light-methods) to improve any area of your organization. Although it's main focus is in IT and Software Development, Open Kanban can be used in any business or non-profit to achieve agility and continuous improvement.
 
